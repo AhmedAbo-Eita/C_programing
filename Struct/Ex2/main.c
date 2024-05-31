@@ -35,6 +35,8 @@ int main()
         fflush(stdin);fflush(stdout);
         scanf("%f", &students[i].GPA);
     }
+
+// print all informations about studend and his grade
     
     for(i=0 ; i<num ; i++)
     {
@@ -45,6 +47,7 @@ int main()
     return 0;
 }
 
+// function to calculate the grade of student 
 void grade(float x )
 {
     if (x >= 3.3)
