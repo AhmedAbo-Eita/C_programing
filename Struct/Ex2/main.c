@@ -44,6 +44,7 @@ int main()
         grade(students[i].GPA);
     }
 
+   system("pause");
     return 0;
 }
 
